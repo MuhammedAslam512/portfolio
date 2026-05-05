@@ -1,4 +1,6 @@
+import { useEffect } from "react";
 import styles from "./Footer.module.css";
+import { readTransformValue } from "framer-motion";
 
 const Footer = () => {
     return (
@@ -13,3 +15,4 @@ const Footer = () => {
 };
 
 export default Footer;
+

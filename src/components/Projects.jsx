@@ -7,7 +7,7 @@ const Projects = () => {
   return (
     <section id="projects" className={styles.section}>
       <h2 className={styles.sectionTitle}>
-        My <span className={styles.highlight}>Projects</span>
+        Featured <span className={styles.highlight}>Projects</span>
       </h2>
 
       <div className={styles.grid}>
@@ -34,10 +34,14 @@ const Projects = () => {
 
             <div className={styles.content}>
               <h3>{project.title}</h3>
-              <p>{project.description}</p>
+              <p className="{styles.description}">
+                {project.description}
+              </p>
               <div className={styles.tech}>
-                {project.tech.map((t, i) => (
-                  <span key={i} className={styles.tag}>{t}</span>
+                {project.tech.map((tech, index) => (
+                  <span key={index} className={styles.techTag}>
+                    {tech}
+                  </span>
                 ))}
               </div>
             </div>

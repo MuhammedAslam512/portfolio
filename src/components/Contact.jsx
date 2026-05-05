@@ -22,7 +22,7 @@ const Contact = () => {
                     <input type="text" placeholder="Your Name" required />
                     <input type="email" placeholder="Your Email" required />
                     <textarea placeholder="Your Message" rows="5" required />
-                    <button type="submit">Send Message</button>
+                    <button type="submit">Feel free to reach out via email or LinkedIn. </button>
                 </form>
             </motion.div>
         </section>

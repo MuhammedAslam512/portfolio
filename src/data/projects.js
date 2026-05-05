@@ -1,26 +1,22 @@
+import portfolioimg from "../assets/portfolio.png"
+import amazonimg from "../assets/amazon.png"
 export const projects = [
   {
-    title: "E-Commerce Platform",
-    description: "Full-stack e-commerce app with cart, payments, and admin dashboard",
-    tech: ["React", "Node.js", "MongoDB", "Stripe"],
-    live: "https://example.com",
-    github: "https://github.com",
-    image: "https://via.placeholder.com/400x300/667eea/ffffff?text=E-Commerce"
+    title: "Personal Portfolio Website",
+    description:
+      "A fully responsive personal portfolio built using React and Vite. Features smooth animations with Framer Motion, reusable component architecture, and modern UI design. Deployed using Vercel for live hosting.",
+    tech: ["React", "JavaScript", "CSS Modules", "Framer Motion", "Vite"],
+    github: "https://github.com/MuhammedAslam512/portfolio",
+    live: "https://portfolio-two-murex-96.vercel.app/",
+    image: portfolioimg
   },
   {
-    title: "Task Management App",
-    description: "Drag and drop task manager with real-time updates",
-    tech: ["React", "Firebase", "Tailwind"],
-    live: "https://example.com",
-    github: "https://github.com",
-    image: "https://via.placeholder.com/400x300/764ba2/ffffff?text=Task+App"
-  },
-  {
-    title: "Weather Dashboard",
-    description: "Beautiful weather app with 5-day forecast and maps",
-    tech: ["React", "OpenWeather API", "Chart.js"],
-    live: "https://example.com",
-    github: "https://github.com",
-    image: "https://via.placeholder.com/400x300/f093fb/ffffff?text=Weather"
+    title: "Amazon Clone(React Vite",
+    description: "A responsive Amazon-inspired e-commerce interface built with React and Vite. Implemented dynamic product filtering using state management and reusable components. Designed with a mobile-first approach for optimal performance.Implemented component-based architecture for scalable UI development.",
+    tech: ["React", "JavaScript", "CSS", "Vite"],
+    live: "https://amazon-clone-alpha-eight-48.vercel.app/",
+    github: "https://github.com/MuhammedAslam512/Amazon-clone",
+    image: amazonimg
   }
 ];
+

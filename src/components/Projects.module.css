@@ -116,7 +116,28 @@
   border: 1px solid rgba(99, 102, 241, 0.3);
 }
 
+.description {
+  color: #b0b0b0;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  font-size: 0.95rem;
+}
+
+.techTag {
+  background: rgba(99, 102, 241, 0.1);
+  color: #6366f1;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  border: 1px solid rgba(99, 102, 241, 0.3);
+}
+
 @media (max-width: 768px) {
-  .sectionTitle { font-size: 2rem; }
-  .grid { grid-template-columns: 1fr; }
+  .sectionTitle {
+    font-size: 2rem;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+  }
 }
