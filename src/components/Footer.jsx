@@ -9,7 +9,7 @@ const Footer = () => {
                 © {new Date().getFullYear()} Your Aslam.
                 Built with React & passion for frontend development.
             </p>
-            <p>© {new Date().getFullYear()} Your Name. All rights reserved.</p>
+            <p>© {new Date().getFullYear()} Dongli. All rights reserved.</p>
         </footer>
     );
 };
