@@ -16,37 +16,25 @@ const About = () => {
                 </h2>
 
                 <p className={styles.text}>
-                    I am a passionate Frontend Developer focused on creating responsive,
-                    accessible, and visually engaging web applications. I enjoy transforming
-                    ideas into interactive digital experiences using HTML, CSS, JavaScript,
-                    and React.
+                    I am a Fullstack Software Engineer with a deep foundation in real-time web applications, multi-tenant SaaS architecture, and cloud deployment pipelines. I specialize in building end-to-end applications—from optimized Express/MongoDB backend APIs and Socket.io real-time document engines to high-performance React user interfaces styled with Tailwind CSS.
 
-                    I pay strong attention to clean UI design, performance, and smooth
-                    animations to ensure a great user experience across all devices.
-
-                    In addition to frontend development, I have a foundational background
-                    in networking and system administration, which helps me better understand
-                    how applications interact with infrastructure and cloud environments.
-
-                    I am currently seeking an internship or entry-level opportunity where
-                    I can contribute, grow, and continue developing my expertise in
-                    frontend technologies.
+                    My background in Computer Engineering and networking (CCNA/CCNP) gives me a strong understanding of HTTP protocols, DNS domain routing, security audit logging, and cloud infrastructure.
                 </p>
 
                 <div className={styles.cards}>
                     <div className={styles.card}>
-                        <h3>Frontend</h3>
-                        <p>React, JavaScript, CSS, Animations</p>
+                        <h3>Frontend Engineering</h3>
+                        <p> React 18, Vite, Tailwind CSS, Framer Motion, Context API, Dynamic Interceptors.</p>
                     </div>
 
                     <div className={styles.card}>
-                        <h3>Backend</h3>
-                        <p>Node.js, Express, MongoDB</p>
+                        <h3>Backend & Real-Time APIs</h3>
+                        <p>Node.js, Express.js, Socket.io WebSockets, REST APIs, Redis, MongoDB Aggregations.</p>
                     </div>
 
                     <div className={styles.card}>
-                        <h3>Tools</h3>
-                        <p>Git, GitHub, Vite, VS Code</p>
+                        <h3>Cloud, DevOps & Networking</h3>
+                        <p>GitHub Actions CI/CD, Docker, Stripe Webhooks, Render, Vercel, CCNA/CCNP.</p>
                     </div>
                 </div>
             </motion.div>

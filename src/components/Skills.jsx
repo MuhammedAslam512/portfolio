@@ -3,7 +3,7 @@ import styles from "./Skills.module.css";
 
 const skillCategories = [
   {
-    title: "Frontend Development",
+    title: "Frontend Architecture",
     skills: [
       "HTML5",
       "CSS3",
@@ -15,12 +15,24 @@ const skillCategories = [
     ]
   },
   {
-    title: "Tools & Workflow",
+    title: "Backend & Real-Time Systems",
     skills: [
-      "Git",
-      "GitHub",
-      "Vite",
-      "VS Code"
+      "Node.js",
+      "Express.js",
+      "Socket.io",
+      "MongoDB",
+      "Redis",
+      "Script API"
+    ]
+  },
+  {
+    title: "DevOps, Tooling & Workflow",
+    skills: [
+      "Git/GitHub",
+      "Github Actions CI/CD",
+      "Docker",
+      "Render",
+      "Vercel"
     ]
   },
   {

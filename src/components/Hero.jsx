@@ -43,7 +43,7 @@ const Hero = () => {
             transition={{ delay: 0.3 }}
             className={styles.title}
           >
-            Hi, I'm <span className={styles.highlight}>Muhammed Aslam</span>
+            <span className={styles.highlight}>Muhammed Aslam</span>
           </motion.h1>
 
           <motion.div
@@ -65,9 +65,7 @@ const Hero = () => {
             I build exceptional digital experiences that make people's lives easier.
           </motion.p> */}
           <p className={styles.description}>
-            Frontend Developer specializing in building responsive, modern,
-            and user-friendly web applications using HTML, CSS, JavaScript, and React.
-            Passionate about clean UI, smooth animations, and great user experience.
+            Specializing in high-performance multi-tenant SaaS architectures, real-time WebSocket synchronization, and responsive React web applications.
           </p>
 
           <motion.div
@@ -79,8 +77,8 @@ const Hero = () => {
             <a href="#projects" className={styles.btnPrimary}>
               View Projects
             </a>
-            <a href="#contact" className={styles.btnSecondary}>
-              Contact Me
+            <a href="" className={styles.btnSecondary}>
+              Download Resume
             </a>
           </motion.div>
 
