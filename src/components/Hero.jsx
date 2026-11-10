@@ -77,7 +77,7 @@ const Hero = () => {
             <a href="#projects" className={styles.btnPrimary}>
               View Projects
             </a>
-            <a href="" className={styles.btnSecondary}>
+            <a href="/Resume.pdf" download='Resume.pdf' className={styles.btnSecondary}>
               Download Resume
             </a>
           </motion.div>
